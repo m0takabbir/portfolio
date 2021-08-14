@@ -1399,8 +1399,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding-left: 50px;
 }
 .prt_home_wrapper h1 {
-    font-size: 120px;
+    font-size: 140px;
 	margin:0px;
+    padding-top:100px;
+    padding-left:50px;
 }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1433,7 +1435,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: relative;
 }
 .prt_services_slider_imgs {
-    margin-left: 150px;
+    margin-left: 10px;
 }
 .prt_services_slider_box {
     position: absolute;
@@ -1443,17 +1445,20 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin: 0px auto;
 }
 .prt_home_wrapper h1 {
-    font-size: 90px;
+    font-size: 120px;
 	margin:0px;
+    padding-left:10px;
+    padding-top:100px
 }
 }
 
 @media (max-width: 767px) {
 .prt_home_wrapper h1 {
     font-size: 50px;
-	margin:0px;
-	text-align: center;
-    padding-top: 150px;
+    margin:0px;
+    text-align: center;
+    padding-top: 195px;
+    padding-left: 87px;
 }
 .prt_profile_slider {
     padding-top: 0px;
@@ -1571,12 +1576,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 @media only screen and (max-width: 1000px) {
     .sarwar{
-        padding: 100px 50px;
+        padding: 100px 133px;
     }
   }
   @media only screen and (max-width: 700px) {
     .sarwar{
-        padding: 100px 50px;
+        padding: 100px 114px;
         padding-top: 100px;
         /* font-size: 50px; */
     }
