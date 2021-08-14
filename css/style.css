@@ -1454,10 +1454,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 
 @media (max-width: 767px) {
 .prt_home_wrapper h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin:0px;
     text-align: center;
-    padding-top: 225px;
+    padding-top: 235px;
     padding-left: 63px;
 }
 .prt_profile_slider {
