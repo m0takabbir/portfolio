@@ -1530,6 +1530,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_home_wrapper h1 {
     font-size: 43px;
+    padding-left:72px;
+    padding-top:269px;
 }
 .prt_counter_box {
     padding-left: 0px;
