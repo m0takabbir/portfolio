@@ -1448,16 +1448,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 }
 
-@media only screen and (max-width: 500px) {
-    .sarwar{
-        font-size: 30px;
-    }
-  }
-
-
 @media (max-width: 767px) {
 .prt_home_wrapper h1 {
-    font-size: 70px;
+    font-size: 50px;
 	margin:0px;
 	text-align: center;
     padding-top: 150px;
