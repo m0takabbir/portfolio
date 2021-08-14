@@ -256,13 +256,13 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-color: #000000;
 }
 .prt_home_wrapper{
-	background-image:url(http://placehold.it/1920X1080);
+	background-image:url(images\header\background.jpg);
 	background-position: center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
-	overflow-y:auto;
-    padding: 200px 0px;
+	/*overflow-y:auto;*/
+    padding: 75px 0px;
 }
 .prt_home_wrapper h1{
 	position:absolute;
@@ -270,10 +270,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 	font-size:150px;
 	color: #ffffff;
 	font-weight:bold;
-	background: url(http://placehold.it/650X800) no-repeat;
+	background: url(../images/header/background.jpg) no-repeat;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-    background-size: cover;
+    background-size: auto;
     background-position: -41px -85px;
 }
 .prt_logo_wrapper img{
@@ -1447,11 +1447,20 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin:0px;
 }
 }
+
+@media only screen and (max-width: 500px) {
+    .sarwar{
+        font-size: 30px;
+    }
+  }
+
+
 @media (max-width: 767px) {
 .prt_home_wrapper h1 {
-    font-size: 90px;
+    font-size: 70px;
 	margin:0px;
 	text-align: center;
+    padding-top: 150px;
 }
 .prt_profile_slider {
     padding-top: 0px;
@@ -1505,7 +1514,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 @media (min-width: 540px) and (max-width: 619px) {
 .prt_services_slider_imgs {
-    margin-left: 50px;
+    margin-left: 70px;
 }
 }
 @media (max-width: 539px) {
@@ -1567,3 +1576,15 @@ input:focus, textarea:focus, select:focus, button:focus {
     height: 900px;
 }
 }
+@media only screen and (max-width: 1000px) {
+    .sarwar{
+        padding: 100px 50px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .sarwar{
+        padding: 100px 50px;
+        padding-top: 100px;
+        /* font-size: 50px; */
+    }
+  }
