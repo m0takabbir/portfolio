@@ -899,13 +899,13 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box.details_box1{
-	background-image:url(http://placehold.it/450X250);
+	background-image:url(../images/header/450x250phone.png);
 }
 .prt_contact_details_box.details_box2{
-	background-image:url(http://placehold.it/450X250);
+	background-image:url(../images/header/450x250email.png);
 }
 .prt_contact_details_box.details_box3{
-	background-image:url(http://placehold.it/450X250);
+	background-image:url(../images/header/450x250address.png);
 }
 /*---------- Services css Start -------*/
 .prt_services_wrapper{
