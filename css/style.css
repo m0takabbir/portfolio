@@ -266,9 +266,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_home_wrapper h1{
 	position:absolute;
-	top:50%;
-    
-	font-size:190px;
+	top:50%;    
+	font-size:200px;
 	color: #ffffff;
 	font-weight:bold;
 	background: url(../images/header/background.jpg) no-repeat;
