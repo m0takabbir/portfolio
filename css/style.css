@@ -1132,28 +1132,28 @@ input:focus, textarea:focus, select:focus, button:focus {
 	text-align:center;
 }
 #circles-1{
-	background-image:url(http://placehold.it/200X200);
+	background-image:url(../images/header/200x200photoshop.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-2{
-	background-image:url(http://placehold.it/200X200);
+	background-image:url(../images/header/200x200illustrator.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-3{
-	background-image:url(http://placehold.it/200X200);
+	background-image:url(../images/header/200x200graphicdesign.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-4{
-	background-image:url(http://placehold.it/200X200);
+	background-image:url(../images/header/200x200illustration.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
