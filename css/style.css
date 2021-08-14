@@ -1454,7 +1454,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 
 @media (max-width: 767px) {
 .prt_home_wrapper h1 {
-    font-size: 50px;
+    font-size: 30px;
     margin:0px;
     text-align: center;
     padding-top: 225px;
