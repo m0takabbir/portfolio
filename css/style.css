@@ -1590,6 +1590,6 @@ input:focus, textarea:focus, select:focus, button:focus {
   @media only screen and (max-width: 440px) {
     .prt_home_wrapper h1{
         padding-top: 210px;
-        /* font-size: 50px; */
+        /* font-size: 50px;d */
     }
   }
