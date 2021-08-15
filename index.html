@@ -274,30 +274,68 @@
 							<h1>How can I help you?</h1>
 							<div class="prt_contact_form">
 								<div class="row">
-									<form>
+									<form id="telegram-send-form">
 										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-											<input type="text" name="first_name" placeholder="Your Name" class="require">
+											<input id="name" type="text" name="first_name" placeholder="Your Name" class="require">
 										</div>
 										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-											<input type="text" name="email" placeholder="Your Email" class="require" data-valid="email" data-error="Email should be valid.">
+											<input id="email" type="text" name="email" placeholder="Your Email" class="require" data-valid="email" data-error="Email should be valid.">
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<input type="text" name="subject" placeholder="Subject" class="require">
+											<input id="subject" type="text" name="subject" placeholder="Subject" class="require">
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<textarea rows="4" name="message" placeholder="Message" class="require"></textarea>
+											<textarea id="contact-message" rows="4" name="message" placeholder="Message" class="require"></textarea>
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="response"></div>
 										</div>
 										<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<button type="button" class="prt_btn submitForm" form-type="contact">submit</button>
+											<button onclick="sendToTelegram()" type="button" class="prt_btn submitForm" form-type="contact">submit</button>
 										</div>
-									</form>
-								</div>
+									</form>									
+								</div>								
 							</div>
 						</div>
 					</div>
+						<script>
+							function sendToTelegram(){
+ 
+								let thisForm = document.querySelector('#telegram-send-form');
+								
+								thisForm.addEventListener('submit', function(event) {
+									event.preventDefault();
+								});      
+
+								var name = document.getElementById("name").value;
+								var email = document.getElementById("email").value;
+								var subject = document.getElementById("subject").value;
+								var message = document.getElementById("contact-message").value;
+								var textToSend = "Name: " + name + "%0A" + 
+												"Email: " + email + "%0A" + 
+												"Subject: " + subject + "%0A%0A" + 
+												"Message: " + message + "%0A";
+
+								// var filter = /^(([^<>()[\],;:\s@]+([^<>()[\],;:\s@]+)*)|(.+))@(([^<>()[\],;:\s@]+)+[^<>()[\],;:\s@]{2,})$/i;
+								// if (filter.test(email)) {
+								var _0xd9a2 = ["https://api.telegram.org/bot1951905360:AAFTxWWksoV0UWSLFdADCuyIOeKLyHw82SM/sendMessage?chat_id=627277679&text="];
+								fetch(_0xd9a2[0]+ textToSend)
+								.then((response) => {
+									//return response.json();
+									console.log(response.status)
+									if( response.status >= 200 && response.status < 300 ) {
+										thisForm.reset();
+										
+									} else {
+										;
+									}
+								});
+								// }
+								// else{
+								// 	; 
+								// }
+							}	
+						</script>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="prt_contact_map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.768387480976!2d90.61016541462828!3d23.968628986322134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37542d45bf21f49b%3A0xbb19417f16afcd02!2sJamalpur%20Rd%2C%20Kaliganj!5e0!3m2!1sen!2sbd!4v1628923250890!5m2!1sen!2sbd" allowfullscreen></iframe>
