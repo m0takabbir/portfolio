@@ -1,10 +1,4 @@
-/*--------------------- Copyright (c) 2018 -----------------------
-[Master Javascript]
 
-Project: Portfolio Responsive HTML Template
-Version: 1.0.0
-Assigned to: ThemeForest
--------------------------------------------------------------------*/
 (function($){
   "use strict";
 	
@@ -59,10 +53,10 @@ Assigned to: ThemeForest
 	$('.prt_skills_wrapper').appear(function() {
 		var circle1 = Circles.create({
 			id: 'circles-1',
-			value: 90,
+			value: 95,
 			radius: 100,
-			number: 90,
-			text: '90%',
+			number: 95,
+			text: '95%',
 			width: 8,
 			colors: ["#202020", "#00c8ff"],
 			duration: 900
