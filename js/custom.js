@@ -63,10 +63,10 @@
 		});
 		var circle2 = Circles.create({
 			id: 'circles-2',
-			value: 80,
+			value: 90,
 			radius: 100,
-			number: 80,
-			text: '80%',
+			number: 90,
+			text: '90%',
 			width: 8,
 			colors: ["#202020", "#ff8511"],
 			duration: 900
