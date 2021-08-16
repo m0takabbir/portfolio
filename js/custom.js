@@ -78,7 +78,7 @@
 			number: 75,
 			text: '75%',
 			width: 8,
-			colors: ["#202020", "#f26525"],
+			colors: ["#202020", "#FF3066"],
 			duration: 900
 		});
 		var circle4 = Circles.create({
