@@ -180,7 +180,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_heading h1:after{
 	content:"";
 	position:absolute;
-	background-color:#ffffff;
+	background-color:#45C8F2;
 	width:100%;
 	height:2px;
 	top:100%;
@@ -196,7 +196,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: absolute;
     right: 0;
     bottom: -10px;
-	color:#64364a;
+	color:#45C8F2;
     font-weight: 500;
 }
 .prt_heading_wrapper_2{
@@ -229,9 +229,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_btn:hover, .prt_btn:focus{
-    color: #64364a;
+    color: #45C8F2;
     background-color: #111111;
-	border:1px solid #64364a;
+	border:1px solid #45C8F2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -504,7 +504,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_about_learnbox_right:hover .prt_about_learnbox_year h1{
-	color:#64364a;
+	color:#45C8F2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -512,7 +512,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_about_learnbox_left:hover .prt_about_learnbox_year h1{
-	color:#64364a;
+	color:#45C8F2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -634,7 +634,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_about_experiencebox:hover .prt_about_experience_year h1{
-	color:#64364a;
+	color:#45C8F2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -891,7 +891,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box p a:hover{
-	color:#64364a;
+	color:#45C8F2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1343,7 +1343,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_footer_wrapper p a:hover{
-	color:#64364a;
+	color:#22BCF2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1383,7 +1383,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_footer_wrapper ul li a:hover{
 	color:#ffffff;
-	background-color:#64364a;
+	background-color:#45C8F2;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
