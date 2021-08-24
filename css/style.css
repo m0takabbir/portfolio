@@ -1,13 +1,4 @@
-/*--------------------- Copyright (c) 2018 -----------------------
-[Master Stylesheet]
-
-Project: Portfolio Responsive HTML Template
-Version: 1.0.0
-Assigned to: ThemeForest
--------------------------------------------------------------------
-
-[Table of contents]
-
+/*
 1. Body
 2. Typography css / a
 3. Main Wrapper / .prt_main_wrapper
@@ -1527,7 +1518,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     font-size: 34px;
 }
 .prt_home_wrapper h1 {
-    font-size: 43px;
+    font-size: 34px;
     padding-left:72px;
     padding-top:280px;
 }
@@ -1566,12 +1557,16 @@ input:focus, textarea:focus, select:focus, button:focus {
     display:none;
 }
 }
-@media (max-width: 390px) {
+@media only screen and (max-width: 390px) {
 .prt_services_slider_box {
     top: 350px;
 }
 .prt_services_slider_wrapper {
     height: 900px;
+}
+.prt_home_wrapper h1 {
+    padding-top: 200px;
+    padding-left: 61px;
 }
 }
 @media only screen and (max-width: 1000px) {
@@ -1579,7 +1574,7 @@ input:focus, textarea:focus, select:focus, button:focus {
         padding: 100px 133px;
     }
   }
-  @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     .sarwar{
         padding: 100px 114px;
         padding-top: 100px;
@@ -1587,10 +1582,12 @@ input:focus, textarea:focus, select:focus, button:focus {
     }
   }
 
-  @media only screen and (max-width: 440px) {
+@media only screen and (max-width: 440px) {
     .prt_home_wrapper h1{
-        padding-top: 280px;
-        padding-left:67px;
+        padding-top: 200px;
+        padding-left:61px;
         /* font-size: 50px;d */
     }
   }
+
+  
