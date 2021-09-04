@@ -143,8 +143,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     -moz-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
-#status img {
-}
+/* #status img {
+} */
 /*---------- Heading Css Start -------*/
 .prt_heading_wrapper{
 	text-align:center;
