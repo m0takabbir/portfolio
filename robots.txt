@@ -5,4 +5,4 @@ User-agent: *
 Disallow: /search
 Allow: /
 
-Sitemap: https://portfolio.m0takabbir.live/sitemap.xml
+Sitemap: https://www.motakabbir.com/sitemap.xml
