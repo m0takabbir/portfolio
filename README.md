@@ -1,4 +1,3 @@
 # portfolio
 
-
-portfolio.m0takabbir.live
+www.motakabbir.com
