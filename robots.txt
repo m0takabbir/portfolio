@@ -6,3 +6,4 @@ Disallow: /search
 Allow: /
 
 Sitemap: https://www.motakabbir.com/sitemap.xml
+Sitemap
