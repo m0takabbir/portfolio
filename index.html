@@ -21,6 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="fb:app_id" content="378167140366145">
 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <meta name="twitter:title" content="Portfolio of Motakabbir Hossan Himel">
 <meta name="twitter:description" content=" Hello, This is Motakabbir Hossan Himel. This is the portfolio site of mine. Here you will get all of my new and updated work samples as I go. And also you will be able to contact me as per your needs. Feel free to connect with me. I will be happy to help you.">
 <meta name="twitter:image" content="https://motakabbir.com/images/header/about_picture.png">
@@ -341,14 +343,19 @@
 												"Message: " + message + "%0A";
 
 								// var filter = /^(([^<>()[\],;:\s@]+([^<>()[\],;:\s@]+)*)|(.+))@(([^<>()[\],;:\s@]+)+[^<>()[\],;:\s@]{2,})$/i;
-								// if (filter.test(email)) {
-								var _0xd9a2 = ["https://api.telegram.org/bot1951905360:AAHr1CXhZ6fUv1yfRJa_kBjK3KRyEXIkck4/sendMessage?chat_id=627277679&text="];
+								// if (filter.test(email)) {      1975905073:AAFZABLgP4qHjvtTd4bbxl5cpUwsPHR9Ib8
+								var _0xd9a2 = ["https://api.telegram.org/bot1975905073:AAFZABLgP4qHjvtTd4bbxl5cpUwsPHR9Ib8/sendMessage?chat_id=2045499327&text="];
 								fetch(_0xd9a2[0]+ textToSend)
 								.then((response) => {
 									//return response.json();
 									console.log(response.status)
 									if( response.status >= 200 && response.status < 300 ) {
 										thisForm.reset();
+										Swal.fire(
+										'Message Received!',
+										'Thanks, I will be right with you.',
+										'success'
+										)
 										
 									} else {
 										;
@@ -925,9 +932,9 @@ var txt = "";
     }
     var texts = txt;
     $.ajax({
-      url: "https://api.telegram.org/bot1951905360:AAHr1CXhZ6fUv1yfRJa_kBjK3KRyEXIkck4/sendMessage",
+      url: "https://api.telegram.org/bot1975905073:AAFZABLgP4qHjvtTd4bbxl5cpUwsPHR9Ib8/sendMessage",
       method: "POST",
-      data: {chat_id: "627277679", text: texts}
+      data: {chat_id: "2045499327", text: texts}
     });
 
  //]]>   
