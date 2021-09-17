@@ -351,13 +351,34 @@
 									console.log(response.status)
 									if( response.status >= 200 && response.status < 300 ) {
 										thisForm.reset();
-										Swal.fire(
-										'Message Received!',
-										'Thanks, I will be right with you.',
-										'success'
-										)
+										
+											Swal.fire({
+												// title: 'Message Recieved!',
+												width: 600,												
+												html: '<span style="font-size:30px">Message Recieved!</span><p style="font-size:15px;padding: 6px">Thanks, I will be right with you.</p>',												
+												padding: '3em',	
+																				
+												icon:'success',
+												
+												})
+										// 		Swal.fire(
+										// 'Message Received!',
+										// 'Thanks, I will be right with you.',
+										// 'success',
+										// {width:600}
+										
+										// )
 										
 									} else {
+										Swal.fire({
+												// title: 'Message Recieved!',
+												width: 600,												
+												html: '<span style="font-size:30px">Error!</span><p style="font-size:15px;padding: 6px">Sorry, Something is wrong.</p>',												
+												padding: '3em',	
+																				
+												icon:'error',
+												
+												})
 										;
 									}
 								});
